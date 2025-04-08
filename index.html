@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpongeBob Episodes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SpongeBob Episodes</h1>
+        <ul id="episodeList"></ul>
+    </div>
+
+    <!-- Popup Media Player -->
+    <div id="popupPlayer" class="popup hidden">
+        <div class="popup-content">
+            <button id="closePlayer" class="close-btn">&times;</button>
+            <video id="popupVideo" controls autoplay>
+                Your browser does not support the video element.
+            </video>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
