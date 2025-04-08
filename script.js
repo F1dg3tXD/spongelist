@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             button.addEventListener('click', () => {
                 const videoUrl = button.getAttribute('data-url');
                 popupVideo.src = videoUrl;
+                popupVideo.load(); // Ensure the video is reloaded
                 popupPlayer.classList.remove('hidden');
             });
         });
