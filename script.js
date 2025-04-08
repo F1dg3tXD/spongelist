@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const closePlayer = document.getElementById('closePlayer');
 
     try {
-        const response = await fetch('../sponge.json');
+        const response = await fetch('sponge.json');
         const episodes = await response.json();
 
         episodes.forEach((episode, index) => {
