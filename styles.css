@@ -115,3 +115,19 @@ button:hover {
         font-size: 20px; /* Adjust button size */
     }
 }
+
+/* Style for VLC button */
+.vlc-btn {
+    background: #1abc9c;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+.vlc-btn:hover {
+    background: #16a085;
+}
