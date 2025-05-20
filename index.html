@@ -9,6 +9,7 @@
 <body>
     <div class="container">
         <h1>spongelist</h1>
+        <button id="playAllBtn" class="vlc-btn" style="margin-bottom:20px;">Play All</button>
         <ul id="episodeList"></ul>
     </div>
 
@@ -16,6 +17,11 @@
     <div id="popupPlayer" class="popup hidden">
         <div class="popup-content">
             <button id="closePlayer" class="close-btn">&times;</button>
+            <div style="text-align:center; margin-bottom:10px;">
+                <button id="skipBackBtn" title="Back 5s">&#9664;&#9664; 5s</button>
+                <button id="nextEpisodeBtn" title="Next Episode">Next &#9654;</button>
+                <button id="skipForwardBtn" title="Forward 5s">5s &#9654;&#9654;</button>
+            </div>
             <video id="popupVideo" controls autoplay muted preload="auto">
                 Your browser does not support the video element.
             </video>
